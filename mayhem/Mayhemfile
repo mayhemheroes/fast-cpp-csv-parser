@@ -1,0 +1,8 @@
+project: fast-cpp-csv-parser
+target: fuzz-parse
+testsuite:
+    - file://mayhem/testsuite
+
+cmds:
+  - cmd: /csv-fuzz
+    libfuzzer: true
